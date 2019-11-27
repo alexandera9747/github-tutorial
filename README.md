@@ -15,7 +15,7 @@ _By Alexander Andria_
 **_How do you Sign into Github?_**
 * Firstly, you would need to create an account, including a username and password that you will remember. 
 * Next, you would need to sign into your ide, by signing into your ide you now have the ability to make changes in files, create the, and more.   
-  * When setting up your ide, you want to create an SSH key. Steps to doing this are liked here: https://github.com/hstatsep/ide50   
+  * When setting up your ide, you want to create an SSH key. Steps to doing this are linked here: https://github.com/hstatsep/ide50   
 * We need the SSH key because it makes your account a remote, it also gives the programmer the ability to make changes to files and push them to their github repositories. Most importantly, it gives programmers the ability to collaborate on projects. 
 
 ---

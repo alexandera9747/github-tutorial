@@ -13,6 +13,9 @@ _by Alexander Andria_
 ## Initial Setup
 **_How do you Sign into Github?_**
 * Firstly, you would need to create an account, including a username and password that you will remember. 
+* Next, you would need to sign into your ide, by signing into your ide you now have the ability to make changes in files, create the, and more.   
+  * When setting up your ide, you want to create an SSH key. Steps to doing this are liked here:   (Steps to setting up your IDE)[https://github.com/hstatsep/ide50]
+  * 
 
 ---
 ## Repository Setup

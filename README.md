@@ -11,8 +11,8 @@ _by Alexander Andria_
 
 ---
 ## Initial Setup
-
-
+**_How do you Sign into Github?_**
+* Firstly, you would need to create an account, including a username and password that you will remember. 
 
 ---
 ## Repository Setup

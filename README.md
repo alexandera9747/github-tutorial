@@ -38,11 +38,16 @@ _By Alexander Andria_
  2.`git add`  
  3.`git commit`  
  4.`git push`  
-* `Git  status` we use this too see errors in your code or whether a change or a file has been added, overall it tells you the current state of your code.   
+* `Git  status` we use this too see errors in your code or whether a change or a file has been added, overall it tells you the current state of your code.  
 * `Git add` We use git add to add our files to the staging area. This basically means that our file is ready to have a snapshot of it and saved.   
 * `Git commit` we use this code to take the snapshot of our change made to the file or in other words a picture of what you done. It also has a message and as said the message has to be in present-tense saying what was modified. 
 * `Git push` this is used to bascically push the commits from your local, which is your ide to the remote, your repository in github.
 
 ---
 ## Rolling Back Changes
-**Say you accidently commited, made an edit, added, or pushed and you didn't want too. There are codes that can reverse it and undo the changes you didnt mean to do.** 
+**Say you accidently commited, made an edit, added, or pushed and you didn't want too. There are codes that can reverse it and undo the changes you didnt mean to do.**  
+* There are codes that you can use to undo these changes.
+  * To undo a commit you simply type in `git reset --soft HEAD~` this will undo your most recent commit. 
+  * If you accidently make an edit and you want to take it back you can simply use `git checkout <file name>` this will undo the change.
+  * If you want to unstage a file you type `git reset HEAD file` this will turn the file read again. 
+  * If you didn't mean to push a file you need to revert that file by `git revert` and type in after `git reset --hard <file code name>` and after `git push origin +master` this will undo your push.

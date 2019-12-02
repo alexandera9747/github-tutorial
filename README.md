@@ -22,6 +22,7 @@ _By Alexander Andria_
 ## Repository Setup
 **In your repository setup, there are many steps included in it too succesfully upload your changes.**
 1. Firstly, you need to go into your certain repository or folder in order to start your setup. Once you are in your folder you type `git init` this basically activates git in your command line also know as hiring the photographer. In doing so you now have access to git commands such as `git status` `git add .` and `git commit -m "---"`.
+   * Tip: If you `git init` in the wrong directory (folder) you can do `rm -rf .git` it basically takes away git or "fires" the photographer. 
 2. Secondly, when you make changes to your file you would need to add those changes to the staging are and in order to do that you `git add .` this basically puts your changes into the frame or the stage and they are ready to be commited.
    * Tip: during this process `git status` is your best friend. It can tell you whether theres an error in code or in this case if your changes are added to the stage or not. If the change shows up in red it needs to be added if it shows up in green it is added and ready to be commited.
 3. Thirdly, you would need to create a snapshot and create a record of that change. In order to do so, you need to type `git commit -m "custon message"`. When typing your commit message it ALWAYS has to be in present tense.
@@ -51,3 +52,12 @@ _By Alexander Andria_
   * If you accidently make an edit and you want to take it back you can simply use `git checkout <file name>` this will undo the change.
   * If you want to unstage a file you type `git reset HEAD file` this will turn the file read again. 
   * If you didn't mean to push a file you need to revert that file by `git revert` and type in after `git reset --hard <file code name>` and after `git push origin +master` this will undo your push.
+
+---
+## Collaboration 
+ We _Collaborate_ to work on each others projects, make our version of it, and ask to make changes. 
+ * Some ways to collaborate include forking, cloning, and pulling.
+ * Forking is basically making our own copy of someone elses repository and making it ours, we can push changes to pur version without having to do a pull request.
+ * `cloning` is similar to forking but not entirly. For example, cloning if you wanted to push changes that you have made, you cant without making a pull request because you didnt make the repository yours. 
+ * Pull requests are basically askings for a change in your repository, you can either accpet it or decline it, up to you.
+ * `pulling` is accepting a pull request and pulling those changes to your repository.

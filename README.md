@@ -60,4 +60,4 @@ _By Alexander Andria_
  * Forking is basically making our own copy of someone elses repository and making it ours, we can push changes to pur version without having to do a pull request.
  * `cloning` is similar to forking but not entirly. For example, cloning if you wanted to push changes that you have made, you cant without making a pull request because you didnt make the repository yours. 
  * Pull requests are basically askings for a change in your repository, you can either accpet it or decline it, up to you.
- * `pulling` is accepting a pull request and pulling those changes to your repository.
+ * `pulling` is accepting a pull request and pulling those changes to your repository.  

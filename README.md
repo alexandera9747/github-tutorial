@@ -41,7 +41,7 @@ _By Alexander Andria_
  4.`git push`  
 * `Git  status` we use this too see errors in your code or whether a change or a file has been added, overall it tells you the current state of your code.  
 * `Git add` We use git add to add our files to the staging area. This basically means that our file is ready to have a snapshot of it and saved.   
-* `Git commit` we use this code to take the snapshot of our change made to the file or in other words a picture of what you done. It also has a message and as said the message has to be in present-tense saying what was modified. 
+* `Git commit -m` we use this code to take the snapshot of our change made to the file or in other words a picture of what you done. It also has a message and as said the message has to be in present-tense saying what was modified. 
 * `Git push` this is used to bascically push the commits from your local, which is your ide to the remote, your repository in github.
 
 ---
